@@ -92,7 +92,7 @@
         "joinTooltip": "Participar da reunião",
         "nextMeeting": "próxima reunião",
         "noEvents": "Não há eventos próximos agendados.",
-        "ongoingMeeting": "reunião em progresso",
+        "ongoingMeeting": "reunião em andamento",
         "permissionButton": "Abrir configurações",
         "permissionMessage": "Permissão do calendário é requerida para ver suas reuniões na aplicação.",
         "refresh": "Atualizar calendário",
@@ -190,7 +190,7 @@
     },
     "connectionindicator": {
         "address": "Endereço:",
-        "audio_ssrc": "Aúdio SSRC:",
+        "audio_ssrc": "Áudio SSRC:",
         "bandwidth": "Largura de banda estimada:",
         "bitrate": "Taxa de bits:",
         "bridgeCount": "Servidores: ",
@@ -224,7 +224,7 @@
         "status": "Conexão:",
         "transport": "Transporte:",
         "transport_plural": "Transportes:",
-        "video_ssrc": "Video SSRC:",
+        "video_ssrc": "Vídeo SSRC:",
         "yes": "sim"
     },
     "dateUtils": {
@@ -256,7 +256,7 @@
         "unsupportedBrowser": "Parece que você está usando um navegador ao qual não temos suporte."
     },
     "defaultLink": "ex.: {{url}}",
-    "defaultNickname": "ex.: João Pedro",
+    "defaultNickname": "ex.: Fulana de Tal",
     "deviceError": {
         "cameraError": "Falha ao acessar sua câmera",
         "cameraPermission": "Erro ao obter permissão para a câmera",
@@ -327,16 +327,16 @@
         "cameraUnknownError": "Não pode usar a câmera por uma razão desconhecida.",
         "cameraUnsupportedResolutionError": "Sua câmera não suporta a resolução de vídeo requerida.",
         "close": "Fechar",
-        "conferenceDisconnectMsg": "Você pode querer verificar sua conexão de rede. Reconectando em {{seconds}} segundos…",
+        "conferenceDisconnectMsg": "Favor verificar sua conexão de rede. Reconectando em {{seconds}} segundos…",
         "conferenceDisconnectTitle": "Você foi desconectado.",
-        "conferenceReloadMsg": "Estamos tentando consertar isto. Reconectando em {{seconds}} segundos…",
+        "conferenceReloadMsg": "Estamos tentando resolver isto. Reconectando em {{seconds}} segundos…",
         "conferenceReloadTitle": "Infelizmente, algo deu errado.",
         "confirm": "Confirmar",
         "confirmBack": "Voltar",
         "confirmNo": "Não",
         "confirmYes": "Sim",
-        "connectError": "Oops! Alguma coisa está errada e nós não pudemos conectar à conferência.",
-        "connectErrorWithMsg": "Oops! Alguma coisa está errada e não podemos conectar à conferência: {{msg}}",
+        "connectError": "Opa! Alguma coisa está errada e não foi possível conectar à conferência.",
+        "connectErrorWithMsg": "Opa! Alguma coisa está errada e não foi possível conectar à conferência: {{msg}}",
         "connecting": "Conectando",
         "contactSupport": "Entrar em contato com o suporte",
         "copied": "Copiado",
@@ -362,7 +362,7 @@
         "hideShareAudioHelper": "Não mostre este diálogo novamente",
         "incorrectPassword": "Usuário ou senha incorretos",
         "incorrectRoomLockPassword": "Senha incorreta",
-        "internalError": "Oops! Alguma coisa está errada. O seguinte erro ocorreu: {{error}}",
+        "internalError": "Opa! Alguma coisa está errada. Ocorreu o seguinte erro: {{error}}",
         "internalErrorTitle": "Erro interno",
         "kickMessage": "Você pode entrar em contato com {{participantDisplayName}} para obter mais detalhes.",
         "kickParticipantButton": "Remover",
@@ -395,9 +395,9 @@
         "moderationAudioLabel": "Permitir aos participantes reativar o som",
         "moderationDesktopLabel": "Allow non-moderators to share their screen",
         "moderationVideoLabel": "Permitir aos participantes reativar o vídeo",
-        "muteEveryoneDialog": "Você não poderá reativar o som deles, mas eles poderão reativar a qualquer momento.",
-        "muteEveryoneDialogModerationOn": "Os participantes podem enviar solicitação para reativar seus sons a qualquer momento.",
-        "muteEveryoneElseDialog": "Uma vez silenciados, você não poderá reativar o som deles, mas eles poderão reativar seus sons a qualquer momento.",
+        "muteEveryoneDialog": "Os participantes podem ativar o microfone a qualquer momento.",
+        "muteEveryoneDialogModerationOn": "Os participantes podem enviar solicitação para falar a qualquer momento.",
+        "muteEveryoneElseDialog": "Depois de silenciados, você não poderá reativar o som deles, mas eles podem reativar o microfone a qualquer momento.",
         "muteEveryoneElseTitle": "Silenciar todo mundo exceto {{whom}}?",
         "muteEveryoneElsesDesktopDialog": "Once the share is stopped, you won't be able to restart it, but they can do so at any time.",
         "muteEveryoneElsesDesktopTitle": "Stop everyone's screen-share except {{whom}}?",
@@ -462,9 +462,9 @@
         "reservationErrorMsg": "Código do erro: {{code}}, mensagem: {{msg}}",
         "retry": "Tentar novamente",
         "screenSharingAudio": "Compartilhar áudio",
-        "screenSharingFailed": "Oops! Alguma coisa de errado aconteceu, não é possível habilitar o compartilhamento de tela!",
-        "screenSharingFailedTitle": "Falha ao compartilhar a tela!",
-        "screenSharingPermissionDeniedError": "Oops! Alguma coisa está errada com suas permissões de compartilhamento de tela. Recarregue e tente de novo.",
+        "screenSharingFailed": "Opa! Alguma coisa está errada e não foi possível habilitar o compartilhamento de tela!",
+        "screenSharingFailedTitle": "Falha ao compartilhar tela!",
+        "screenSharingPermissionDeniedError": "Opa! Alguma coisa está errada com suas permissões de compartilhamento de tela. Recarregue e tente de novo.",
         "searchInSalesforce": "Pesquisar no Salesforce",
         "searchResults": "Resultados da pesquisa({{count}})",
         "searchResultsDetailsError": "Algo de errado ocorreu ao recuperar os dados do proprietário.",
@@ -477,8 +477,8 @@
         "sendPrivateMessageTitle": "Enviar em privado?",
         "serviceUnavailable": "Serviço indisponível",
         "sessTerminated": "Chamada encerrada",
-        "sessTerminatedReason": "A chamada foi encerrada",
-        "sessionRestarted": "Chamada reiniciada devido a um erro de conexão.",
+        "sessTerminatedReason": "A reunião foi encerrada",
+        "sessionRestarted": "Chamada reiniciada devido a um problema de conexão.",
         "shareAudio": "Continuar",
         "shareAudioAltText": "para compartilhar o conteúdo desejado, acesse \"Aba de navegador\", selecione o conteúdo, ative a caixa de \"compartilhar áudio\" e então clique no botão \"compartilhar\"",
         "shareAudioTitle": "Como compartilhar áudio",
@@ -530,7 +530,7 @@
             "tokenExpired": "O token está expirado."
         },
         "tokenAuthFailedTitle": "Falha de autenticação",
-        "tokenAuthFailedWithReasons": "Desculpe, você não pode ingressar nesta chamada. Razões possíveis: {{reason}}",
+        "tokenAuthFailedWithReasons": "Desculpe, mas você não pode entrar nesta chamada. Razões possíveis: {{reason}}",
         "tokenAuthUnsupported": "Token da URL não é suportada.",
         "transcribing": "Transcrevendo",
         "unauthenticatedAccessDisabled": "This call requires authentication. Please login in order to proceed.",
@@ -546,17 +546,17 @@
         "viewUpgradeOptions": "Ver opções de atualização",
         "viewUpgradeOptionsContent": "Para obter acesso ilimitado a recursos premium tais como gravação, transcrição, streaming RTMP e muito mais, você precisa atualizar seu plano.",
         "viewUpgradeOptionsTitle": "Você descobriu um recurso premium!",
-        "whiteboardLimitContent": "Desculpe, o limite de usuários de quadro-branco simultâneos foi atingido.",
+        "whiteboardLimitContent": "Desculpe, mas o limite de usuários simultâneos do quadro branco foi atingido.",
         "whiteboardLimitReference": "Para mais informações por favor visite",
         "whiteboardLimitReferenceUrl": "nosso website",
-        "whiteboardLimitTitle": "Restrição no uso do quadro-branco",
+        "whiteboardLimitTitle": "Restrição no uso do quadro branco",
         "yourEntireScreen": "Toda sua tela"
     },
     "documentSharing": {
         "title": "Documento compartilhado"
     },
     "e2ee": {
-        "labelToolTip": "Comunição de áudio e vídeo da reunião encriptados ponto a ponto"
+        "labelToolTip": "A comunicação de áudio e vídeo nesta reunião é encriptada ponto a ponto"
     },
     "embedMeeting": {
         "title": "Reunião em formato compacto"
@@ -622,7 +622,7 @@
         "dialInNumber": "Discar:",
         "dialInSummaryError": "Ocorreu um erro ao buscar a informação de discagem. Tente novamente mais tarde.",
         "dialInTollFree": "Chamada gratuita",
-        "genericError": "Oops, alguma coisa deu errado.",
+        "genericError": "Opa! Alguma coisa está errada.",
         "inviteLiveStream": "Para ver a transmissão ao vivo da reunião, clique no link: {{url}}",
         "invitePhone": "Para participar por telefone, toque aqui: {{number}},,{{conferenceID}}#\n",
         "invitePhoneAlternatives": "Procurando um número de discagem diferente?\nVeja os números de discagem da reunião: {{url}} \n\n\nSe você também estiver discando através de um telefone da sala, participe sem conectar-se ao áudio: {{silentUrl}}",
@@ -823,8 +823,8 @@
         "dataChannelClosedWithAudio": "Audio and video quality may be impaired",
         "desktopMutedRemotelyTitle": "O compartilhamento de tela foi interrompido por {{participantDisplayName}}",
         "disabledIframe": "Incorporação destina-se apenas a fins de demonstração, assim esta chamada será desconectada em {{timeout}} minutos.",
-        "disabledIframeSecondaryNative": "Incorporação de {{domain}} é apenas destinado para fins de demonstração, então esta chamada será desconectada em {{timeout}} minutos.",
-        "disabledIframeSecondaryWeb": "Incorporação de {{domain}} é apenas destinado para fins de demonstração, então esta chamada será desconectada em {{timeout}} minutos. Por favor use o <a href='{{jaasDomain}}' rel='noopener noreferrer' target='_blank'>Jitsi as a Service</a> para incorporação em produção!",
+        "disabledIframeSecondaryNative": "Incorporação de {{domain}} destina-se apenas a fins de demonstração, então esta chamada será desconectada em {{timeout}} minutos.",
+        "disabledIframeSecondaryWeb": "Incorporação de {{domain}} destina-se apenas a fins de demonstração, então esta chamada será desconectada em {{timeout}} minutos. Por favor use o <a href='{{jaasDomain}}' rel='noopener noreferrer' target='_blank'>Jitsi as a Service</a> para incorporação em produção!",
         "disconnected": "desconectado",
         "displayNotifications": "Exibir notificações para",
         "dontRemindMe": "Não me lembrar",
@@ -915,8 +915,8 @@
         "waitingParticipants": "{{waitingParticipants}} pessoas",
         "waitingVisitors": "Viewers waiting in queue: {{waitingVisitors}}",
         "waitingVisitorsTitle": "The meeting is not live yet!",
-        "whiteboardLimitDescription": "Por favor, salve seu progresso pois o limite de usuários logo será atingido e o quadro-branco será fechado.",
-        "whiteboardLimitTitle": "Uso do quadro-branco"
+        "whiteboardLimitDescription": "Por favor, salve seu progresso pois o limite de usuários logo será atingido e o quadro branco será fechado.",
+        "whiteboardLimitTitle": "Uso do quadro branco"
     },
     "participantsPane": {
         "actions": {
@@ -1056,7 +1056,7 @@
         "initiated": "Chamada iniciada",
         "joinAudioByPhone": "Participar com o áudio via ligação",
         "joinMeeting": "Participar da reunião",
-        "joinMeetingInLowBandwidthMode": "Participar no modo de banda baixa",
+        "joinMeetingInLowBandwidthMode": "Participar em modo de banda baixa",
         "joinWithoutAudio": "Participar sem áudio",
         "keyboardShortcuts": "Habilitar atalhos de teclado",
         "linkCopied": "Link copiado para a área de transferência",
@@ -1067,9 +1067,9 @@
         "recordingWarning": "Other participants may be recording this call",
         "screenSharingError": "Erro de compartilhamento de tela:",
         "startWithPhone": "Iniciar com o áudio da ligação",
-        "unsafeRoomConsent": "Eu entendo os riscos, desejo ingressar na reunião",
+        "unsafeRoomConsent": "Entendo os riscos e desejo entrar na reunião",
         "videoOnlyError": "Erro de vídeo:",
-        "videoTrackError": "Não é possível criar faixa de vídeo.",
+        "videoTrackError": "Não foi possível criar faixa de vídeo.",
         "viewAllNumbers": "veja todos os números"
     },
     "presenceStatus": {
@@ -1160,7 +1160,7 @@
         "signOut": "Sair",
         "surfaceError": "Por favor selecione a aba atual.",
         "title": "Gravando",
-        "unavailable": "Oops! O {{serviceName}} está indisponível. Estamos trabalhando para resolver o problema. Por favor, tente mais tarde.",
+        "unavailable": "Opa! O {{serviceName}} está indisponível. Estamos trabalhando para resolver o problema. Por favor, tente mais tarde.",
         "unavailableTitle": "Gravação indisponível",
         "uploadToCloud": "Enviar para a nuvem"
     },
@@ -1171,13 +1171,13 @@
     "security": {
         "about": "Você pode adicionar $t(lockRoomPassword) a sua reunião. Participantes terão que fornecer $t(lockRoomPassword) antes de entrar na reunião.",
         "aboutReadOnly": "Moderadores podem adicionar $t(lockRoomPassword) à reunião. Participantes terão que fornecer $t(lockRoomPassword) antes de entrar na reunião.",
-        "insecureRoomNameWarningNative": "O nome da sala é não é seguro. Participantes não desejados podem ingressar na reunião. {{recommendAction}} Saiba mais sobre como proteger sua reunião ",
-        "insecureRoomNameWarningWeb": "O nome da sala é não é seguro. Participantes não desejados podem ingressar na reunião. {{recommendAction}} Saiba mais sobre como proteger sua reunião <a href=\"{{securityUrl}}\" rel=\"security\" target=\"_blank\">aqui</a>.",
+        "insecureRoomNameWarningNative": "O nome da sala não é seguro. Participantes indesejados podem entrar na reunião. {{recommendAction}} Saiba mais sobre como proteger sua reunião ",
+        "insecureRoomNameWarningWeb": "O nome da sala não é seguro. Participantes indesejados podem entrar na reunião. {{recommendAction}} Saiba mais sobre como proteger sua reunião <a href=\"{{securityUrl}}\" rel=\"security\" target=\"_blank\">aqui</a>.",
         "title": "Opções de segurança",
         "unsafeRoomActions": {
             "meeting": "Considere usar o botão de segurança para proteger sua reunião.",
-            "prejoin": "Considere usar um nome de reunião não-comum.",
-            "welcome": "Considere usar um nome de reunião não-comum ou selecione um das sugestões."
+            "prejoin": "Considere usar um nome de reunião menos comum.",
+            "welcome": "Considere usar um nome de reunião menos comum ou selecione uma das sugestões."
         }
     },
     "settings": {
@@ -1241,11 +1241,11 @@
         "disableCallIntegration": "Desativar integração de chamada nativa",
         "disableCrashReporting": "Desabilitar aviso de falha",
         "disableCrashReportingWarning": "Tem certeza eue quer desabilitar o aviso de falha? A opção será habilitada após reiniciar o app.",
-        "disableP2P": "Desativar modo ponto a ponto",
+        "disableP2P": "Desativar modo Peer-To-Peer",
         "displayName": "Nome de exibição",
-        "displayNamePlaceholderText": "Ex: João Silva",
+        "displayNamePlaceholderText": "Ex: Fulano de Tal",
         "email": "Email",
-        "emailPlaceholderText": "email@exemplo.com.br",
+        "emailPlaceholderText": "email@example.com",
         "gavatarMessage": "Se seu email está associado com uma conta Gravatar, o usaremos para exibir sua foto de perfil.",
         "goTo": "Ir para",
         "header": "Configurações",
@@ -1266,7 +1266,7 @@
         "dialInfoText": "\n\n=====\n\nDeseja apenas discar no seu telefone?\n\n{{defaultDialInNumber}}Clique neste link para ver os números de telefone para esta reunião\n{{dialInfoPageUrl}}",
         "mainText": "Clique no seguinte link para entrar na reunião:\n{{roomUrl}}"
     },
-    "speaker": "Alto-falantes",
+    "speaker": "Participante",
     "speakerStats": {
         "angry": "Zangado",
         "disgusted": "Com nojo",
@@ -1324,20 +1324,20 @@
             "documentOpen": "Abrir documento compartilhado",
             "download": "Baixe nossos aplicativos",
             "embedMeeting": "Reunião em formato compacto",
-            "endConference": "Terminar para todos",
-            "enterFullScreen": "Ver em tela-cheia",
+            "endConference": "Encerrar reunião",
+            "enterFullScreen": "Ver em tela cheia",
             "enterTileView": "Entrar na visualização em blocos",
-            "exitFullScreen": "Sair da tela-cheia",
+            "exitFullScreen": "Sair da tela cheia",
             "exitTileView": "Sair da visualização em blocos",
             "expand": "Expandir",
             "feedback": "Deixar feedback",
             "fullScreen": "Alternar para tela cheia",
             "giphy": "Alternar menu do GIPHY",
             "grantModerator": "Atribuir Moderador",
-            "hangup": "Sair da chamada",
+            "hangup": "Sair da reunião",
             "heading": "Barra de ferramentas",
             "help": "Ajuda",
-            "hideWhiteboard": "Ocultar quadro-branco",
+            "hideWhiteboard": "Ocultar quadro branco",
             "invite": "Convidar pessoas",
             "kick": "Remover participante",
             "laugh": "Risada",
@@ -1380,7 +1380,7 @@
             "sharedvideo": "Alternar compartilhamento de vídeo",
             "shortcuts": "Alternar atalhos",
             "show": "Mostrar no palco",
-            "showWhiteboard": "Exibir quadro-branco",
+            "showWhiteboard": "Exibir quadro branco",
             "silence": "Silenciar",
             "speakerStats": "Alternar estatísticas do apresentador",
             "stopScreenSharing": "Parar de compartilhar sua tela",
@@ -1431,7 +1431,7 @@
         "e2ee": "Encriptação ponto a ponto",
         "embedMeeting": "Reunião em formato compacto",
         "enableNoiseSuppression": "Habilitar supressão de ruído",
-        "endConference": "Terminar para todos",
+        "endConference": "Encerrar reunião",
         "enterFullScreen": "Ver em tela cheia",
         "enterTileView": "Entrar em exibição de bloco",
         "exitFullScreen": "Sair da tela cheia",
@@ -1441,9 +1441,9 @@
         "giphy": "Alternar menu do GIPHY",
         "hangup": "Sair",
         "help": "Ajuda",
-        "hideWhiteboard": "Ocultar quadro-branco",
+        "hideWhiteboard": "Ocultar quadro branco",
         "invite": "Convidar pessoas",
-        "joinBreakoutRoom": "Ingressar na sala de apoio",
+        "joinBreakoutRoom": "Entrar na sala de apoio",
         "laugh": "Risada",
         "leaveBreakoutRoom": "Sair da sala de apoio",
         "leaveConference": "Sair da reunião",
@@ -1472,7 +1472,7 @@
         "openChat": "Abrir chat",
         "openReactionsMenu": "Abrir menu de reações",
         "participants": "Participantes",
-        "pip": "Entrar em modo Quadro-a-Quadro",
+        "pip": "Entrar em modo Picture-in-Picture",
         "polls": "Polls",
         "privateMessage": "Enviar mensagem privada",
         "profile": "Editar seu perfil",
@@ -1491,9 +1491,9 @@
         "selectBackground": "Selecionar fundo",
         "shareRoom": "Convidar alguém",
         "shareaudio": "Compartilhar áudio",
-        "sharedvideo": "Compartilhar um vídeo",
+        "sharedvideo": "Compartilhar vídeo",
         "shortcuts": "Ver atalhos",
-        "showWhiteboard": "Exibir quadro-branco",
+        "showWhiteboard": "Exibir quadro branco",
         "silence": "Silêncio",
         "speakerStats": "Estatísticas do Apresentador",
         "startScreenSharing": "Iniciar compart. de tela",
@@ -1648,7 +1648,7 @@
             "roomname": "Digite o nome da sala"
         },
         "addMeetingName": "Adicionar nome da reunião",
-        "appDescription": "Vá em frente, converse por vídeo com toda a equipe. De fato, convide todos que você conhece. {{app}} é uma solução de videoconferência totalmente criptografada e 100% de código aberto que você pode usar todos os dias, a cada dia, gratuitamente — sem necessidade de conta.",
+        "appDescription": "Vá em frente, converse por vídeo com toda a equipe. Na verdade, convide todo mundo que você conhece. {{app}} é uma solução de videoconferência totalmente criptografada e 100% de código aberto que você pode usar todos os dias, a cada dia, gratuitamente — sem necessidade de conta.",
         "audioVideoSwitch": {
             "audio": "Voz",
             "video": "Vídeo"
@@ -1696,8 +1696,8 @@
     },
     "whiteboard": {
         "accessibilityLabel": {
-            "heading": "Quadro-branco"
+            "heading": "Quadro branco"
         },
-        "screenTitle": "Quadro-branco"
+        "screenTitle": "Quadro branco"
     }
 }
